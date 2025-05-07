@@ -1,0 +1,162 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+nav {
+  background-color: rgb(80, 38, 197);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+nav a:hover {
+  color: yellow;
+}
+
+
+body {
+  background-color: #b9e3f5;
+  padding: 2rem;
+}
+
+
+#question-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px black;
+}
+
+#question {
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+#answer-buttons button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
+#answer-buttons button:hover {
+  background: whitesmoke;
+}
+
+
+.color-correct {
+  background-color: green !important;
+  color: white;
+}
+
+.color-wrong {
+  background-color: red !important;
+  color: white;
+}
+
+
+.controls {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.controls button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: lightblue;
+}
+
+
+.hide {
+  display: none;
+}
+
+#scoreChart {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+}
+
+
+canvas { 
+  max-width: 400px; margin: auto; 
+
+}
+
+.result-container {
+  max-width: 800px;
+  margin: 4rem auto;
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ccfce1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#scoreText {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.controls-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+
